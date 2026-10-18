@@ -1,0 +1,57 @@
+<!-- 
+Data -> representasi fakta di dunia nyata 
+terkadang data saling terkait misal buku, ada judul, pengarang, penerbit, terbit.
+
+bagaimana menyimpan dan mengalola data
+bisa pake excel, langsung di halaman, atau di database
+
+Masalah : kapasitas, kecepatan, keamanan, duplikasi
+
+Solusi : Skalabilitas(jika data bertambah sistem mampu menangani), tersedia(kapanpun pengaksesan data), security, permanen (agar ga di memori saja datanya)
+
+ 
+
+== DATABASE ==
+database -> data yang ada di dalam dbms
+DBMS(database management system) -> software yang mengelola database : Oracle, MySQL, SQL Server, PostgreSQL, MongoDB. dbms mampu mengolah banyak database.
+
+SQL -> Bahasa
+
+JENIS DBMS
+== Relational DBMS (RDMS)
+    keterhubungan antar datanya, misal database univ didalamnya ada tabel-tabel sprt mahasiswa, prodi, matkul dan masing2 tabel di hubungkan dgn relasi
+
+    auto_increment -> jadi otomatis nambah 1 setiap record yang masuk
+    record -> data satu mahasiswa (nim, nama, alamat)
+    Primary key -> harus ada tiap tabel. sebuah data yang dapat merepresentasikan satu baris record secara unik, misal nim krn unik (pasti beda dgn yang lain)
+
+    CMD
+    - null = isinya boleh kosong atau tidak
+    - mengarahkan ke bin/mysql
+    - cd.. -> naik 1 direktori
+    - cd \ -> langsung ke c:\>
+    - cls -> clear screen
+    - dir -> buka directori (tampilan ke atas bawah)
+    - dir /w -> buka directori (tampilan ke kiri kanan)
+            []-> folder, yang gaada -> file
+            misal [mysql],  masuknya nulis cd mysql
+
+    - c:\xampp\mysql\bin\mysql -> masuk sebagai tamu (gada hak akses)
+    - c:\xampp\mysql\bin\mysql -u -> masuk sebagai admin (hak akses penuh)
+            -u = username dgn default root 
+            -p = password dgn default kosong, lgsg enter aja
+
+    select nama, nim from mahasiswa;
+    select * from mahasiswa where nim='233140707';
+    update mahasiswa set jurusan ='dkv' where nim='233140708';
+    delete from mahasiswa where id='3';
+    drop table mahasiswa; -> hapus tabel
+
+    CRUD (create, read, update, delete)
+
+== Hierarchical DBMS
+== Network DBMS
+== NoSQL DBMS
+
+
+-->
