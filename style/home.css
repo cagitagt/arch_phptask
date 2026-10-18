@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+section {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size:100px;
+}
+
+a {
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 20px;
+    margin: 0px 8px ;
+    color: rgb(51, 33, 92);
+}
+
+a:hover {
+    background-color:rgb(51, 33, 92);
+    color: white;
+}
