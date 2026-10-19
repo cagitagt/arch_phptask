@@ -1,0 +1,32 @@
+header{
+    padding: 20px 0px;
+}
+header .header-text{
+    padding-top: 20px;
+    color: #021160;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+ 
+header .header-text .title{
+    font-size: 26px;
+}
+header .header-text .sub-title{
+    font-size: 22px;
+}
+#about{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: justify;
+}
+footer{
+    background-color: #0354a0;
+    color: #fff;
+    padding: 50px 0px;
+    min-height: 80px;
+    text-align: center;
+}
+ 
+
+
+

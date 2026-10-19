@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+        <script src="dist/js/bootstrap.bundle.min.js"></script> 
+        <link rel="stylesheet" href="dist/css/style.css">
+        <title>Coba Bootstrap</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row"> <!--biar dalam satu baris, ngga dibawahnya-->
+                    <div class="col-3 col-md-2"> <!--col 3 buat windows, col 2 macbook-->
+                        <a href="index.html"><img src="dist/css/img/LogoUB.png"
+                        class="img-fluid"></a> <!--img-fluid jadi gambar bisa ikut ukuran layar-->
+                    </div> <!--isinya gambar berupa logo-->
+                    <div class="col-9 col-md-10 header-text"> <!--col 9 buat windows, col 10 macbook-->
+                        <div class="title">PENDIDIKAN VOKASI</div>
+                        <div class="sub-title">Universitas Brawijaya</div>
+                    </div> <!--isinya tulisan--> 
+                </div>     
+            </div>
+        </header>
+        <nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Sekilas Vokasi</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" 
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Bidang Minat
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">
+                                Teknologi Informasi</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                Administrasi Bisnis</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                Keuangan dan Perbankan</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                Desain Grafis</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                Manajemen Perhotelan</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Kontak Kami</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>     
+        </nav>
+        <div class="container">
+                        <!--section banner-->
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col mt-5"><!--class mt-5 adalah fitur 
+                                    spacing dari bootstrap -->
+                                        <img src="dist/css/img/banner.jpg" class="img-fluid">
+                                    </div>
+                                </div>  
+                            </div>            
+                        </section>
+ 
+                        <!--section about-->
+                        <section id="about">
+                            <div class="container">
+                                <h3 class="text-center">SEKILAS VOKASI UB</h3><br>
+                                <div class="row">
+                                    <div class="col-md-3"><img src="dist/css/img/VokasiUB.png"
+                                    class="img-fluid img-thumbnail"></div>
+                                    <div class="col-md-9"><p>Pendidikan vokasi merupakan 
+                                  pendidikan tinggi yang ditujukan untuk kepentingan praktis  
+                                 dimulai dari D-I, D-II, D-III, Sarjana Terapan, Magister Terapan 
+                                 dan Doktor Terapan yang berfungsi mengembangkan peserta didik agar 
+                                 memiliki pekerjaan keahlian terapan tertentu melalui program 
+                                 vokasi dalam rangka mencapai tujuan pendidikan nasional. 
+                                 Pendidikan vokasi merupakan pendidikan yang
+                                 mengarahkan mahasiswa untuk mengembangkan keahlian terapan, 
+                                 beradaptasi pada bidang pekerjaan tertentu dan dapat menciptakan  
+                                 peluang kerja.</p>
+                                    </div>
+                                </div>
+                            </div>    
+            
+                        </section>
+                        
+                        <!--section prodi-->
+                        <section class="mt-5 mb-5">
+                            <div class="container">
+                                <h3 class="text-center mb-4">Program Studi Vokasi UB</h3>
+                                <div class="table-responsive">
+                                    <table width="100%" cellpadding="0" cellspacing="0" 
+                                    class="table table-bordered">
+                                            <thead class="thead-light"> <!--light bisa ganti primary untuk lebih gelap-->
+                                                <tr>
+                                                    <th width="5%">No</th>
+                                                    <th width="45%">Program Studi</th>
+                                                    <th width="35%">Bidang Minat</th>
+                                                    <th width="15%">Diploma</th>
+                                                </tr>
+                                            </thead> 
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center" rowspan="5">1</td>
+                                                    <td rowspan="5">
+                                                     Program Studi Administrasi Bisnis</td>
+                                                    <td>Public Relation </td>
+                                                    <td class="text-center" rowspan="5">D3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Perpustakaan dan Arsip</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                    Administrasi Perkantoran dan Sekretaris</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bussiness English</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Administrasi Hukum</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center" rowspan="3">2</td>
+                                                    <td rowspan="3">
+                                                    Program Studi Keuangan dan Perbankan</td>
+                                                    <td>Akuntansi Terapan</td>
+                                                    <td class="text-center" rowspan="3">D3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Perbankan</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Perpajakan</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center" rowspan="4">3</td>
+                                                    <td rowspan="4">
+                                                   Program Studi Teknologi Informasi</td>
+                                                    <td>Teknologi informasi dan Komputer</td>
+                                                    <td class="text-center" rowspan="4">D3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sistem Informasi</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Film dan Televisi</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bisnis Digital dan E-commerce</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center"rowspan="2">4</td>
+                                                    <td rowspan="2">
+                                                     Program Studi Sarjana Terapan 
+                                                     Desain Grafis</td>
+                                                    <td>Desain Interior</td>
+                                                    <td class="text-center" rowspan="2">D4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Desain Komunikasi Visual</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">5</td>
+                                                    <td>Program Studi Manajemen Perhotelan</td>
+                                                    <td>Manajemen Perhotelan</td>
+                                                    <td class="text-center">D4</td>
+                                                </tr>
+                                        </tbody>    
+                                    </table>
+                                </div>    
+                            </div>
+                        </section>
+                        
+                        <!--section contact-->
+                        <section>
+                            <div class="container pt-5"> <!--pt = padding top ukuran 5-->
+                                <h3 class="text-center mb-5">Kontak Kami</h3>
+                                <div class="row"> <!--untuk mensejajarkan antara INFO dan-->
+                                    <div class="col-md-6">
+                                        <h6>Untuk info lebih lanjut silahkan menghubungi kami 
+                                       melalui form di bawah ini:</h6>
+                                        <form>
+                                            <div class="row mb-3"> <!--row mb-3 agar ada jarak antar label-->
+                                            <label for="nama" class="col-sm-2 col-form-label">
+                                             Nama</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="nama">
+                                            </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                            <label for="email" class="col-sm-2 col-form-label">
+                                            Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" 
+                                                id="email">
+                                            </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                            <label for="hp" class="col-sm-2 col-form-label">
+                                            No. HP</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control" id="hp">
+                                            </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                            <label for="pesan" class="col-sm-2 col-form-label">
+                                            Pesan</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" id="hp" rows="5">
+                                                </textarea>
+                                            </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                            <div class="col-sm-10">
+                                                <button type="submit" class="btn btn-primary">
+                                                Submit</button>
+                                            </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6 class="text-center">INFORMASI: </h6>
+                                        <address class="p-5 border border-secondary bg-light">
+                                            <strong>Pendidikan Vokasi Universitas Brawijaya
+                                            </strong><br>
+                                            Jalan.Veteran 12-16 Malang<br>
+                                            <abbr title="Website">W:</abbr> <a href="#">
+                                              http://www.vokasi.ub.ac.id/</a><br>
+                                            <abbr title="Phone">P:</abbr>  (0341) 553240
+                                        </address>
+                                    </div>
+                                </div>    
+                            </div>            
+                        </section>            
+        </div>
+        <footer class="mt-5">
+            <div class="container">
+                Copyright &copy; Vokasi Universitas Brawijaya - 2021 <br>
+                Cagita Dian A'yunin
+            </div>
+        </footer>
+    </body>
+</html>
