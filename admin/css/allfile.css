@@ -1,0 +1,61 @@
+
+/* untuk halaman user */
+#card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#card-header{
+    background-color: #fbf4da;
+}
+
+#input-form-control{
+    text-decoration: none;
+    box-shadow: none;
+    border-radius: 10px;
+    border-color: #8d8d8d;
+}
+#input-form-control:active{
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+#btn-search{
+    border-color: #8d8d8d;
+    color: #111111;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#btn-search:hover{
+    background-color: #81F193;
+}
+#btn-edit{
+    border-color: #8d8d8d;
+    color: #111111;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#btn-edit:hover{
+    background-color: #81BBF1;
+}
+#btn-delete{
+    border-color: #8d8d8d;
+    color: #111111;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#btn-delete:hover{
+    background-color: #F18181;
+}
+#btn-tambahData{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-color: #8d8d8d;
+    color: #111111;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#btn-tambahData:hover{
+    background-color: #81BBF1;
+}
+#back-button{
+    text-decoration: none;
+    color: #111111;
+}

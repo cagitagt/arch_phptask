@@ -1,0 +1,45 @@
+:root {
+    --primaryTextColor: #232e35;
+    --secondaryTextColor: #656d72; 
+
+    --borderColor: #f1f1f1;
+    --lineColor: #d9d9d9;
+
+    --primaryBackgroundColor: #fff;
+    --secondaryBackgroundColor: #fbfbfb;
+    --thirdBackgroundColor: #f5f3fe;
+    --fourthBackgroundColor: #2d2d2d;
+    --fifthBackgroundColor : #e8a95c;
+
+    --primaryIconColor: #e8a95c;
+
+    --selectionPadding: 7rem 0;
+    
+    --itemBorderRadius: 0.7rem;
+}
+
+#back-button{
+    text-decoration: none;
+    color: #111111;
+}
+
+#btn-edit{
+    padding: 1rem 1.5rem;
+    border: 1.5px solid var(--borderColor);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    border-radius: 25px;
+    color: white;
+    background-color: var(--fifthBackgroundColor);
+}
+#btn-edit:hover{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    text-decoration: none;
+    background-color: var(--fifthBackgroundColor);
+    color: var(--secondaryBackgroundColor);
+    font-weight: bolder;
+    font-size: medium;
+}
+#card-header{
+    background-color: #fbf4da;
+}

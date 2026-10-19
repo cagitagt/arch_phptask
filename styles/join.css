@@ -1,0 +1,139 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+:root {
+    --primaryTextColor: #232e35;
+    --secondaryTextColor: #656d72; 
+
+    --borderColor: #f1f1f1;
+    --borderColor2: rgb(225, 225, 225);
+    --lineColor: #d9d9d9;
+
+    --primaryBackgroundColor: #fff;
+    --secondaryBackgroundColor: #fbfbfb;
+    --thirdBackgroundColor: #f5f3fe;
+    --fourthBackgroundColor: #2d2d2d;
+    --fifthBackgroundColor : #e8a95c;
+
+    --primaryIconColor: #e8a95c;
+
+    --selectionPadding: 7rem 0;
+    
+    --itemBorderRadius: 0.7rem;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--primaryBackgroundColor);
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 1.3px solid var(--borderColor2);
+    color: var(--primaryTextClor);
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 1.5px 6px rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(10px);
+}
+
+.wrapper h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1.3px solid var(--secondaryTextColor);
+    border-radius: 40px;
+    font-size: 16px;
+    color: var(--primaryIconColor);
+    padding: 20px 45px 20px;
+}
+
+.input-box input::placeholder {
+    color: var(--secondaryTextColor);
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: var(--secondaryTextColor);
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    background: var(--fifthBackgroundColor);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--primaryTextClor);
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: var(--thirdTextColor);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline; 
+}

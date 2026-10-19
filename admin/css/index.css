@@ -1,0 +1,30 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #f7f7f7;
+}
+#bg-login-admin{
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+#judul{}
+#subjudul{}
+#form-control-admin-login{
+    /* width: 80vh; */
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    border: 2px solid #111;
+}
+#btn-submit{
+    width: 40vh;
+    background-color: #EAC738;
+    text-align: center;
+
+}
+#judul-left {
+    position: absolute;
+    top: 42%;
+    left: 14%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
